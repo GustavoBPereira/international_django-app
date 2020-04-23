@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 20:02+0000\n"
+"POT-Creation-Date: 2020-04-23 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: international_app/core/views.py:8
+#: international_app/core/templates/jinja2/index.html:10
+msgid "Projeto de internacionalização"
+msgstr "Internationalization project"
+
+#: international_app/core/templates/jinja2/index.html:15
+msgid "Renderize algo com JS!"
+msgstr "Render something with JS!"
+
+#: international_app/core/templates/jinja2/index.html:19
+msgid "texto do template"
+msgstr "template text"
+
+#: international_app/core/views.py:6
 msgid "Este texto foi criado na view"
 msgstr "This text was created in the view"
 
-#: international_app/core/views.py:9
+#: international_app/core/views.py:7
 msgid "Texto da view"
 msgstr "Text from view"
 
