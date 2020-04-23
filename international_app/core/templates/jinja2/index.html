@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello world!</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+
+    {% macro render_title(title) -%}
+        <h1 class="from-template">{{ title }}</h1>
+        {{ caller() }}
+    {%- endmacro %}
+
+    {% call render_title('Projeto de internacionalização') %}
+    {% endcall %}
+
+    <h2 class="from-view">{{ string_from_view }}</h2>
+
+    <h2 id="to-be-filled-by-js" class="from-js"></h2>
+    <button id="to-fill-subtitle" onclick="fill_subtitle()" class="from-template">Renderize algo com JS!</button>
+
+
+    <br> <br> <br>
+    <p class="from-template">texto do template</p>
+    <p class="from-view">{{ example }}</p>
+    <p class="from-js" id="js-filled"></p>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
