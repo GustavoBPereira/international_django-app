@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 16:19+0000\n"
+"POT-Creation-Date: 2020-04-23 16:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,11 +38,11 @@ msgstr "This text was created in the view"
 msgid "Texto da view"
 msgstr "Text from view"
 
-#: international_app/settings.py:113
+#: international_app/settings.py:114
 msgid "Portugues"
 msgstr "Portuguese"
 
-#: international_app/settings.py:114
+#: international_app/settings.py:115
 msgid "Inglês"
 msgstr "English"
 

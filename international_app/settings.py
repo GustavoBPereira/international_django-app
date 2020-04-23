@@ -53,7 +53,8 @@ ROOT_URLCONF = 'international_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.jinja2.Jinja2',
-        'DIRS': [os.path.join(BASE_DIR, 'international_app/core/templates/jinja2')],
+        'DIRS': [os.path.join(BASE_DIR, 'international_app/core/templates/jinja2'),
+                 os.path.join(BASE_DIR, 'international_app/core/static/js')],
         'APP_DIRS': True,
         'OPTIONS': {
             'environment': 'international_app.jinja2.environment'
@@ -118,7 +119,7 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
 
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'pt-BR'
 
 TIME_ZONE = 'UTC'
 
