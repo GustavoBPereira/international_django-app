@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 16:22+0000\n"
+"POT-Creation-Date: 2020-04-25 20:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: international_app/core/templates/jinja2/index.html:10
+#: international_app/core/templates/jinja2/index.html:11
 msgid "Projeto de internacionalização"
 msgstr "Internationalization project"
 
-#: international_app/core/templates/jinja2/index.html:15
+#: international_app/core/templates/jinja2/index.html:16
 msgid "Renderize algo com JS!"
 msgstr "Render something with JS!"
 
-#: international_app/core/templates/jinja2/index.html:19
-msgid "texto do template"
-msgstr "template text"
+#: international_app/core/templates/jinja2/index.html:20
+#, fuzzy
+#| msgid "texto do template"
+msgid "Texto do template"
+msgstr "Template text"
 
 #: international_app/core/views.py:6
 msgid "Este texto foi criado na view"
 msgstr "This text was created in the view"
 
 #: international_app/core/views.py:7
-msgid "Texto da view"
-msgstr "Text from view"
+msgid "Texto do backend"
+msgstr "Text from backend"
 
 #: international_app/settings.py:114
 msgid "Portugues"
